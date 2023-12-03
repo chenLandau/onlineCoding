@@ -9,5 +9,12 @@ This App built with React for the frontend, NodeJS and Express for the backend, 
 Clone repository
 
 bash
+
 cd server
+
 npm run setup:project
+
+npm start //to run both client and server
+
+## Deployment Link
+https://online-coding-9z6z.onrender.com/
