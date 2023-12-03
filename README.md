@@ -14,7 +14,7 @@ cd server
 
 npm run setup:project
 
-npm start //to run both client and server
+ run both client and server: npm start 
 
-## Deployment Link
+## Deployment URL
 https://online-coding-9z6z.onrender.com/
