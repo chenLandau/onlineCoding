@@ -1,0 +1,41 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  height: var(--nav-height);
+  justify-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-title {
+  font-size: 1.3rem;
+  display: flex;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+.nav-title:hover {
+  cursor: default;
+}
+
+.go-back-icon {
+  height: 100%;
+  font-size: 24px;
+  color: var(--primaryColor);
+}
+
+.icon-container {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}

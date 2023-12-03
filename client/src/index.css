@@ -1,0 +1,86 @@
+/* ============= GLOBAL CSS =============== */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+:root {
+  /* colors */
+  --primary-95: #f2f2f2;
+  --primary-90: #e6e6e6;
+  --primary-85: #d9d9d9;
+  --primary-80: #cccccc;
+  --primary-75: #bfbfbf;
+  --primary-70: #b3b3b3;
+  --primary-65: #a6a6a6;
+  --primary-60: #999999;
+  --primary-55: #8c8c8c;
+  --primary-50: #808080;
+  --primary-45: #737373;
+  --primary-40: #666666;
+  --primary-35: #595959;
+  --primary-30: #4d4d4d;
+  --primary-10: #1a1a1a;
+  --primary-0: #000000;
+  /* rest of the colors */
+  --black: #222;
+  --white: #fff;
+  --letter-spacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --nav-height: 3.5rem;
+  --border-radius: 0.4rem;
+  --background-color: var(--grey-50);
+  --text-color: var(--primary-0);
+  --primaryColor: var(--primary-95);
+}
+
+body {
+  background: linear-gradient(180deg, var(--primary-40), var(--primary-10));
+  color: var(--text-color);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 5rem); /* Large heading */
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 3rem); /* Medium heading */
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2.5vw, 2.5rem); /* Small heading */
+}
+
+h4 {
+  font-size: clamp(1rem, 2vw, 2rem); /* Extra small heading */
+}
+
+h5 {
+  font-size: clamp(0.875rem, 1.5vw, 1.5rem); /* Tiny heading */
+}
